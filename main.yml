@@ -1,0 +1,15 @@
+- hosts: all
+  connection: local
+  gather_facts: false
+
+  tasks:
+    - name: "Zabbix: ensure host disabled in Zabbix"
+      zabbix_host:
+        server_url: "{{ zabbix_url }}"
+        validate_certs: no
+        login_user: "{{ zabbix_user }}"
+        login_password: "{{ zabbix_pass }}"
+        host_name: "{{ hostname }}"
+        status: disabled
+      delegate_to: localhost
+      tags: zabbix
