@@ -1,0 +1,14 @@
+---
+collections:
+  - name: redhat.satellite
+  - name: redhat.rhel_idm
+  - name: ansible.netcommon
+  - name: ansible.posix
+  - name: ansible.utils
+  - name: ansible.windows
+  - name: awx.awx
+  - name: community.general
+  - name: community.mysql
+  - name: community.postgresql
+  - name: community.zabbix
+  - name: community.hashi_vault
