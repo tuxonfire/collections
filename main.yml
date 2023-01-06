@@ -4,7 +4,7 @@
 
   tasks:
     - name: "Zabbix: ensure host disabled in Zabbix"
-      zabbix_host:
+      community.zabbix.zabbix_host:
         server_url: https:lalala.com
         validate_certs: no
         login_user: tux
