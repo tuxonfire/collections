@@ -12,3 +12,4 @@ collections:
   - name: community.postgresql
   - name: community.zabbix
   - name: community.hashi_vault
+  - name: cisco.asa
