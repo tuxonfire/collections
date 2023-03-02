@@ -1,7 +1,4 @@
 ---
 collections:
-  - ansible.netcommon
-  - ansible.posix
-  - ansible.utils
-  - ansible.windows
-  - ansible.controller
+  - name: ansible.posix
+    version: 1.5.1
