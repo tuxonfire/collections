@@ -5,7 +5,7 @@
   tasks:
     - name: "Zabbix: ensure host disabled in Zabbix"
       community.zabbix.zabbix_host:
-        server_url: https:lalala.com
+        server_url: https://lalala.com
         validate_certs: no
         login_user: tux
         login_password: tuxsipop
