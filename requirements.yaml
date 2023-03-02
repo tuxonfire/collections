@@ -1,7 +1,5 @@
 ---
 collections:
-  - name: redhat.satellite
-  - name: redhat.rhel_idm
   - name: ansible.netcommon
   - name: ansible.posix
   - name: ansible.utils
