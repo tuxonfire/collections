@@ -1,0 +1,15 @@
+- hosts: all
+#  connection: local
+  gather_facts: false
+
+  tasks:
+    - name: "Zabbix: ensure host disabled in Zabbix"
+      community.zabbix.zabbix_host:
+        server_url: https://lalala.com
+        validate_certs: no
+        login_user: tux
+        login_password: tuxsipop
+        host_name: aap1
+        status: disabled
+      delegate_to: localhost
+      tags: zabbix
