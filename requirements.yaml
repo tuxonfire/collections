@@ -1,16 +1,16 @@
 ---
 collections:
-  - name: redhat.satellite
-  - name: redhat.rhel_idm
-  - name: ansible.netcommon
-  - name: ansible.posix
-  - name: ansible.utils
-  - name: ansible.windows
-  - name: ansible.controller
-  - name: community.general
-  - name: community.windows
-  - name: community.postgresql
-  - name: community.vmware
-  - name: community.crypto
+  - redhat.satellite
+  - redhat.rhel_idm
+  - ansible.netcommon
+  - ansible.posix
+  - ansible.utils
+  - ansible.windows
+  - ansible.controller
+  - community.general
+  - community.windows
+  - community.postgresql
+  - community.vmware
+  - community.crypto
 
   
