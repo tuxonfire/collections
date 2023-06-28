@@ -1,4 +1,16 @@
 ---
 collections:
-  - name: amazon.aws
-    version: 6.0.1
+  - name: redhat.satellite
+  - name: redhat.rhel_idm
+  - name: ansible.netcommon
+  - name: ansible.posix
+  - name: ansible.utils
+  - name: ansible.windows
+  - name: ansible.controller
+  - name: community.general
+  - name: community.windows
+  - name: community.postgresql
+  - name: community.vmware
+  - name: community.crypto
+
+  
